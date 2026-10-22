@@ -1,0 +1,3 @@
+# 拒绝直接网页访问 storage 目录
+Order deny,allow
+Deny from all

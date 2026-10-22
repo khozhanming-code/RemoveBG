@@ -1,0 +1,36 @@
+/* 自定义样式 */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.upload-drop-zone {
+    border: 2px dashed #cbd5e1;
+    background-color: #f8fafc;
+    transition: all 0.3s ease-in-out;
+}
+
+.upload-drop-zone:hover, .upload-drop-zone.dragover {
+    border-color: #0d6efd;
+    background-color: #f1f5f9;
+}
+
+/* 透明棋盘格背景纹理 */
+.bg-checkerboard {
+    background-image: linear-gradient(45deg, #e2e8f0 25%, transparent 25%), 
+                      linear-gradient(-45deg, #e2e8f0 25%, transparent 25%), 
+                      linear-gradient(45deg, transparent 75%, #e2e8f0 75%), 
+                      linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.max-height-400 {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.bg-option.active {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+    border-color: #0d6efd !important;
+}
